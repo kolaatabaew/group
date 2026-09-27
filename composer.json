@@ -1,9 +1,12 @@
 {
-    "name": "kolaa/new-project",
+    "name": "eskyja16-source/project",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
     },
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11",
+        "phpstan/phpstan": "^1.12"
+    }
 }
